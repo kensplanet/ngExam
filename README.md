@@ -9,6 +9,7 @@
 * What is `$http`?
 * What is ng-repeat?
 * What are `$index`, `$even`, `$odd`, `$first`, and `$last`?
+ * http://www.learn-angular.org/#!/lessons/repeaters  
 * How would you filter a list via ng-repeat?
 * What's the difference between `angular.module('app' , [])` and `angular.module('app')`
 * What are directives (briefly)? 

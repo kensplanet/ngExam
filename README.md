@@ -24,11 +24,15 @@
 * When would you use each one?
 * What are filters?
 * Why would you use ng-src, ng-bind, and ng-cloak?
+ * http://www.w3schools.com/angular/ng_ng-bind.asp 
+ * http://stackoverflow.com/questions/27554765/use-of-ng-src-vs-src 
+ * https://docs.angularjs.org/api/ng/directive/ngCloak 
 * What's the difference between ng-if and ng-show?
 * What phases are there in angular? Answer: config -> bootstrap -> run
 * Why would you use `.config()` and `.run()` phase?
 * What is ng-app and how does angular bootstrap?
 * When would you use `$q.all()`?
+ * https://www.jonathanfielding.com/combining-promises-angular/ 
 * Where would you make your network calls controller, template, directive, or service and why? (where would you use $http)
 * Say that you are going to alert an error where would you put that alert from a network call? Service, controller, template and why? [Answer](https://gist.github.com/gdi2290/b9d34955f0d3bce2c1b6)
 * How would you dynamically filter a list with an ng-repeat? (clicking on different filters)
@@ -42,6 +46,7 @@
 * What's html5Mode?
 * How do you turn off cache for a `$http` call?
 * What is the `$templateCache`?
+ * http://pracujlabs.io/2015/12/28/using-templatecache-in-angularjs.html 
 * How would you implement auth as in locking down certain parts of the app? 
 * What's ui-router and why use it over ng-route?
 * What are states?

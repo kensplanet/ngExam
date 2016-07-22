@@ -36,6 +36,7 @@
 * What's ng-style and ng-class?
 * How would you attach something to the header of every http call?
 * What is `$scope.$on()` and how would you use it?
+ * http://stackoverflow.com/questions/14502006/working-with-scope-emit-and-on 
 * What are `$http` interceptors?
 * What is `"$locationChangeStart"`?
 * What's html5Mode?

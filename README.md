@@ -31,6 +31,7 @@
 * What phases are there in angular? Answer: config -> bootstrap -> run
 * Why would you use `.config()` and `.run()` phase?
 * What is ng-app and how does angular bootstrap?
+ * https://docs.angularjs.org/guide/bootstrap 
 * When would you use `$q.all()`?
  * https://www.jonathanfielding.com/combining-promises-angular/ 
 * Where would you make your network calls controller, template, directive, or service and why? (where would you use $http)

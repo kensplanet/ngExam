@@ -44,6 +44,7 @@
  * http://stackoverflow.com/questions/14502006/working-with-scope-emit-and-on 
 * What are `$http` interceptors?
 * What is `"$locationChangeStart"`?
+ * http://stackoverflow.com/questions/26779704/difference-between-locationchangestart-routechangestart-and-statechangestar 
 * What's html5Mode?
 * How do you turn off cache for a `$http` call?
 * What is the `$templateCache`?

@@ -2,7 +2,7 @@
 > An AngularJS 1.x exam from beginner to expert created by [@gdi2290](https://twitter.com/gdi2290)
 
 
-* What's MVC architecture? 
+* What's MVC archit list via ng-repeatecture? 
  * Model - The lowest level of the pattern which is responsible for maintaining data.
    View - This is responsible for displaying all or a portion of the data to the user.
    Controller - Software Code that controls the interactions between the Model and View. 
@@ -19,8 +19,8 @@
 * What are `$index`, `$even`, `$odd`, `$first`, and `$last`?
  * http://www.learn-angular.org/#!/lessons/repeaters  
 * How would you filter a list via ng-repeat?
- * <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 productBorder"
-		ng-repeat="product in products | orderBy:'name' | filter:search"> 
+ * div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 productBorder"
+		ng-repeat="product in products | orderBy:'name' | filter:search" (search is a scope variable)
 * What's the difference between `angular.module('app' , [])` and `angular.module('app')`
  * first one creates a module injecting the dependency modules. second is used to reference the creation of controllers and directives. 
 * What are directives (briefly)? 

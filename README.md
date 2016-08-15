@@ -19,6 +19,8 @@
 * What are `$index`, `$even`, `$odd`, `$first`, and `$last`?
  * http://www.learn-angular.org/#!/lessons/repeaters  
 * How would you filter a list via ng-repeat?
+ * div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 productBorder"
+		ng-repeat="product in products | orderBy:'name' | filter:search" (search is a scope variable)
 * What's the difference between `angular.module('app' , [])` and `angular.module('app')`
  * first one creates a module injecting the dependency modules. second is used to reference the creation of controllers and directives. 
 * What are directives (briefly)? 

@@ -3,6 +3,9 @@
 
 
 * What's MVC architecture? 
+ * Model - The lowest level of the pattern which is responsible for maintaining data.
+   View - This is responsible for displaying all or a portion of the data to the user.
+   Controller - Software Code that controls the interactions between the Model and View. 
 * What's MVVM architecture?
 * What's two way binding?
 * What's ng-model?

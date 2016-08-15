@@ -49,8 +49,11 @@
  * http://stackoverflow.com/questions/27554765/use-of-ng-src-vs-src 
  * https://docs.angularjs.org/api/ng/directive/ngCloak 
 * What's the difference between ng-if and ng-show?
+ * If ng-if is used on an element, then it won't be included in the DOM, but for ng-show the element is present just its display is none. 
 * What phases are there in angular? Answer: config -> bootstrap -> run
 * Why would you use `.config()` and `.run()` phase?
+ * Config block is executed during the provider registration and configuration phase. We can have these as many as we want in the application. Only providers and constants can be injected into configuration blocks and not instances. Run block is executed after the execution of configuration block. It inserts instances and constants but not providers. This block is created using run() method. 
+ * (http://codeanalyze.com/Que/Ans/38295/What-is-difference-between-config-and-run-method-in-AngularJS) 
 * What is ng-app and how does angular bootstrap?
  * https://docs.angularjs.org/guide/bootstrap 
 * When would you use `$q.all()`?

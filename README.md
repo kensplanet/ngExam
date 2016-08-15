@@ -20,6 +20,7 @@
  * http://www.learn-angular.org/#!/lessons/repeaters  
 * How would you filter a list via ng-repeat?
 * What's the difference between `angular.module('app' , [])` and `angular.module('app')`
+ * first one creates a module injecting the dependency modules. second is used to reference the creation of controllers and directives. 
 * What are directives (briefly)? 
  * At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children. (https://docs.angularjs.org/guide/directive) 
 * Why would you use ng-submit instead of ng-click in some cases?

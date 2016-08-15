@@ -40,19 +40,10 @@
  * A promise represents the eventual result of an operation. You can use a promise to specify what to do when an operation eventually succeeds or fails. Using $q. (http://www.dwmkerr.com/promises-in-angularjs-the-definitive-guide/) 
 * What's the difference between factory/provider/service/value/constant?
  * Factory returns an object. Services do not return an object. Providers have a $.get function() which returns an object. 
- * http://stackoverflow.com/questions/15666048/angularjs-service-vs-provider-vs-factory 
- * http://stackoverflow.com/questions/30327651/angularjs-constants-vs-values
-```ar app = angular.module('app', []);
-
-app.constant('PI', 3.14159265359);
-
-app.controller('appCtrl', function(PI) {
-    var radius = 4;
-    // calculate area of the circle
-    var area = PI * radius * radius; 
-});```
 * When would you use each one?
+ * https://gist.github.com/demisx/9605099 
 * What are filters?
+ * Filters can be added in AngularJS to format and transform data. (http://www.w3schools.com/angular/angular_filters.asp)
 * Why would you use ng-src, ng-bind, and ng-cloak?
  * http://www.w3schools.com/angular/ng_ng-bind.asp 
  * http://stackoverflow.com/questions/27554765/use-of-ng-src-vs-src 

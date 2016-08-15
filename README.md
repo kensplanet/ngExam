@@ -24,6 +24,7 @@
 * What are directives (briefly)? 
  * At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children. (https://docs.angularjs.org/guide/directive) 
 * Why would you use ng-submit instead of ng-click in some cases?
+ * The ngSubmit directive binds to the submit event in the browser, which is fired when a form is submitted. The ngClick directive allows you to specify custom behavior when an element is clicked. (http://stackoverflow.com/questions/23553071/differences-between-ng-submit-and-ng-click) 
 * What's Dependency Injection?
  * Where you do not create the dependencies required instead have the framework provide it to you. (http://stackoverflow.com/questions/130794/what-is-dependency-injection)
 * Do other frameworks use dependency injection (even if only for internal use)? Answer: yes (React,Ember)

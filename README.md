@@ -11,6 +11,7 @@
 * What's two way binding?
  * Two-way binding means that any data-related changes affecting the model are immediately propagated to the matching view(s), and that any changes made in the view(s) (say, by the user) are immediately reflected in the underlying model. When app data changes, so does the UI, and conversely. (http://stackoverflow.com/questions/13504906/what-is-two-way-binding)
 * What's ng-model?
+ * The ngModel directive binds an input,select, textarea (or custom form control) to a property on the scope. (https://docs.angularjs.org/api/ng/directive/ngModel) 
 * What is `$http`?
  * A service for making AJAX calls via the HTTP protocol
 * What is ng-repeat?
@@ -20,6 +21,7 @@
 * How would you filter a list via ng-repeat?
 * What's the difference between `angular.module('app' , [])` and `angular.module('app')`
 * What are directives (briefly)? 
+ * At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children. (https://docs.angularjs.org/guide/directive) 
 * Why would you use ng-submit instead of ng-click in some cases?
 * What's Dependency Injection?
 * Do other frameworks use dependency injection (even if only for internal use)? Answer: yes (React,Ember)

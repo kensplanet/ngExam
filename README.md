@@ -59,6 +59,7 @@
 * When would you use `$q.all()`?
  * https://www.jonathanfielding.com/combining-promises-angular/ 
 * Where would you make your network calls controller, template, directive, or service and why? (where would you use $http)
+ * In services for reusabilty purposes. 
 * Say that you are going to alert an error where would you put that alert from a network call? Service, controller, template and why? [Answer](https://gist.github.com/gdi2290/b9d34955f0d3bce2c1b6)
 * How would you dynamically filter a list with an ng-repeat? (clicking on different filters)
 * What's ng-messages and ng-message?

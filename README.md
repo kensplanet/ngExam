@@ -7,7 +7,9 @@
 * What's two way binding?
 * What's ng-model?
 * What is `$http`?
+ * A service for making AJAX calls via the HTTP protocol
 * What is ng-repeat?
+ * Used for repeating a set of elements and iterating over a collection. 
 * What are `$index`, `$even`, `$odd`, `$first`, and `$last`?
  * http://www.learn-angular.org/#!/lessons/repeaters  
 * How would you filter a list via ng-repeat?

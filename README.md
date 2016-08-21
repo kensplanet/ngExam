@@ -156,7 +156,11 @@
 * How would you inject server rendered data into client angular?
 * What's a document fragment?
 * What's the ShadowDOM?
+ * Shadow DOM refers to the ability of the browser to include a subtree of DOM elements into the rendering of a document, but not into the main document DOM tree.
+ * https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/
 * What is needed for your angular web app to work with JavaScript disabled?
+ * <noscript>You must have JavaScript enabled to use this app.</noscript>
+ * http://stackoverflow.com/questions/22256371/how-to-handle-javascript-being-disabled-in-angularjs
 * What is needed for your angular web app to be rendered on the server to be sent down to the client?
 * Generally speaking how would you paraphrase angular?
 * How would you progressively enhance your RESTful app with a pub/sub?
@@ -165,7 +169,10 @@
 * What are the pros and cons of each design?
 * What are some anti patterns developers tend to fall into while using angular?
 * What are the problems currently facing angular1?
+ * Two way Data binding, $digest cycle.
+ * https://larseidnes.com/2014/11/05/angularjs-the-bad-parts/
 * Explain how Angular 2 is solving all of the problems from 1.x
+ * http://angular-tips.com/blog/2015/06/why-will-angular-2-rock/
 * Demonstrate a few ways to migrate an Angular 1 app to Angular 2
 * What's the difference between MVC, MVVM, MVP(SC), MVP(PV), PM, and how does it compare to Flux/Redux architecture?
 * How are dependencies handled when testing Angualar controllers and services?

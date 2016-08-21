@@ -84,6 +84,8 @@
 * Given 3 nested states, how would you load the most nested one after the root state resolves while allowing the middle state to load asynchronously?
 * What types of directives are there? Angular: element, attribute, class (no one uses class)
 * What is `$scope`?
+  * The scope is the binding part between the HTML (view) and the JavaScript (controller).
+  * http://www.w3schools.com/angular/angular_scopes.asp
 * What is `$rootScope`?
 * What is `"$destroy"`?
 * What's one time binding?

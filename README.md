@@ -79,9 +79,15 @@
  * http://pracujlabs.io/2015/12/28/using-templatecache-in-angularjs.html 
 * How would you implement auth as in locking down certain parts of the app? 
 * What's ui-router and why use it over ng-route?
+ * ui-router is a 3rd-party module and is very powerful. It supports everything the normal ngRoute can do as well as many extra functions.
+ * http://stackoverflow.com/questions/21023763/angularjs-difference-between-angular-route-and-angular-ui-router
 * What are states?
+ * A state corresponds to a "place" in the application in terms of the overall UI and navigation. A state (via the controller / template / view properties) describes what the UI looks like and does at that place.
+ * https://github.com/angular-ui/ui-router/wiki#state-manager
 * How do you resolve resources via state/route and how would you do so?
+ * http://plnkr.co/edit/u18KQc?p=preview
 * Given 3 nested states, how would you load the most nested one after the root state resolves while allowing the middle state to load asynchronously?
+ * http://plnkr.co/edit/SDOcGS?p=preview
 * What types of directives are there? Angular: element, attribute, class (no one uses class)
 * What is `$scope`?
   * The scope is the binding part between the HTML (view) and the JavaScript (controller).

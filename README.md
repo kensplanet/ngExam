@@ -126,6 +126,8 @@
 * What's `bindToController:` and `controllerAs:` syntax? 
 * What are directives and what are components?
 * What's the difference between `.$broadcast()`, and `.$emit()`?
+ * $broadcast() - children scopes and below.
+ * $emit() - parent scopes and above.
 * What are `$timeout()` and `$interval()` and how do you cancel them?
  * AngularJS wrappers for setTimeout() and setInterval().
  * using $timeout.cancel(timeout)
@@ -168,8 +170,13 @@
 * How is `$scope` injected when testing Angular controllers?
 * What is the purpose of wrapping core Angular providers and services in double underscores? ex: `_$rootScope_`?
 * Describe the necessary steps to test the Angular `$http` service
+ * $httpBackend.when('GET', 'resource/en.json').respond(__fixtures__['resource/en']);
+ * Call the method.
+ * $httpBackend.flush();
 * How would you test an `$http` request to a third party API such as Youtube?
+ * $httpBackend - Fake HTTP backend implementation suitable for unit testing applications that use the $http service.
 * How would you test the data being returned from the API request?
+ *  $httpBackend.when('GET', 'resource/en.json').respond(__fixtures__['resource/en']);
 * What frameworks, languages and tools are available for testing in Angular?
 * How is $scope used when testing Angular controlers?
 * Explain what `$httpBackend` and `$httpBackend.flush` are used for

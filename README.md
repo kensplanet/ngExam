@@ -102,6 +102,8 @@
  * Achieved using ::
  * https://toddmotto.com/angular-one-time-binding-syntax/
 * When and where would you normally use `.$watch()`?
+ * For watching scope variables.
+ * $scope.$watch('alertFilter', function (newAlertFilter, oldAlertFilter) {    }, true);
 * What's a stateful filter vs a stateless filter?
 * What are `.$dirty`, `.$pristine`, `.$valid`, `.$invalid`, and `.$submitted`?
 * What's NgModelController? 

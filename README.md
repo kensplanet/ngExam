@@ -114,6 +114,8 @@
 * How do you require a controller in a directive?
 * How do you require more than one controller in a directive?
 * What's an isolated scope?
+ * Adding a scope property into the directive created an isolated scope.
+ * http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope
 * For an isolate scope what are these symbols `?`,`@`,`=`,`&`,`*` in relation to directives
 * What are compile/pre-link/post-link phase for directives?
 * What is `$interpolate`?
@@ -125,7 +127,11 @@
 * What are directives and what are components?
 * What's the difference between `.$broadcast()`, and `.$emit()`?
 * What are `$timeout()` and `$interval()` and how do you cancel them?
+ * AngularJS wrappers for setTimeout() and setInterval().
+ * using $timeout.cancel(timeout)
 * What's dirty checking?
+ * Angular "digest" is also called "dirty checking", because, in a way, it scans the scope for changes.
+ * http://stackoverflow.com/questions/24698620/dirty-checking-on-angular
 * Do other frameworks use dirty checking? Answer: yes (React,Polymer)
 * What is the `.$digest()` loop?
 * What's the difference between `.$digest()` and `.$apply()`?

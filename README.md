@@ -87,7 +87,11 @@
   * The scope is the binding part between the HTML (view) and the JavaScript (controller).
   * http://www.w3schools.com/angular/angular_scopes.asp
 * What is `$rootScope`?
+ * $rootScope is a parent scope of all $scope and can be shared to all $scope.
+ * http://www.codeandyou.com/2015/09/what-is-rootscope-in-angularjs.html
 * What is `"$destroy"`?
+ * Angular will broadcast a $destroy event just before tearing down a scope and removing the scope from its parent. Listening for this event is crucial for cleaning up tasks and resources that otherwise might continue to chew up memory or CPU.
+ * http://odetocode.com/blogs/scott/archive/2013/07/16/angularjs-listening-for-destroy.aspx
 * What's one time binding?
 * When and where would you normally use `.$watch()`?
 * What's a stateful filter vs a stateless filter?

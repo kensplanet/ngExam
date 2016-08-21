@@ -144,6 +144,8 @@
 * Why is there ng-form?
 * How would you dynamically create forms?
 * What's CSP and how does it relate to angular?
+ * Content Security Policy (CSP) and it slows down the execution by 30%.
+ * http://www.w3schools.com/angular/ng_ng-csp.asp
 * How do you structure your files for a large team/project?
 * How would you use a module loader/bundler such as browserify, webpack, or systemjs with angular?
 * How would you asynchronously load angular?

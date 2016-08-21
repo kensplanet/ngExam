@@ -99,6 +99,8 @@
  * Angular will broadcast a $destroy event just before tearing down a scope and removing the scope from its parent. Listening for this event is crucial for cleaning up tasks and resources that otherwise might continue to chew up memory or CPU.
  * http://odetocode.com/blogs/scott/archive/2013/07/16/angularjs-listening-for-destroy.aspx
 * What's one time binding?
+ * Achieved using ::
+ * https://toddmotto.com/angular-one-time-binding-syntax/
 * When and where would you normally use `.$watch()`?
 * What's a stateful filter vs a stateless filter?
 * What are `.$dirty`, `.$pristine`, `.$valid`, `.$invalid`, and `.$submitted`?
@@ -107,6 +109,7 @@
 * What's ng-model-options and why would you use it?
 * What are `$validators` and `$asyncValidators`?
 * What's the difference between `scope`, `$scope`, and `$rootScope`?
+ * Already covered.
 * What's the difference between controller and link directives?
 * How do you require a controller in a directive?
 * How do you require more than one controller in a directive?

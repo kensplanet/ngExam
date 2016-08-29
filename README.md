@@ -107,6 +107,8 @@
 * What's a stateful filter vs a stateless filter?
 * What are `.$dirty`, `.$pristine`, `.$valid`, `.$invalid`, and `.$submitted`?
 * What's NgModelController? 
+ * NgModelController provides API for the ngModel directive. The controller contains services for data-binding, validation, CSS updates, and value formatting and parsing.   
+ * https://docs.angularjs.org/api/ng/type/ngModel.NgModelController
 * What's FormController?
 * What's ng-model-options and why would you use it?
 * What are `$validators` and `$asyncValidators`?

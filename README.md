@@ -140,6 +140,7 @@
  * http://stackoverflow.com/questions/24698620/dirty-checking-on-angular
 * Do other frameworks use dirty checking? Answer: yes (React,Polymer)
 * What is the `.$digest()` loop?
+ * https://www.ng-book.com/p/The-Digest-Loop-and-apply/
 * What's the difference between `.$digest()` and `.$apply()`?
 * What are `$watchGroup` and `$watchCollection`?
 * What are `$eval`, `$parse` and `$evalAsync`?

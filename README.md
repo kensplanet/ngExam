@@ -110,6 +110,7 @@
  * NgModelController provides API for the ngModel directive. The controller contains services for data-binding, validation, CSS updates, and value formatting and parsing.   
  * https://docs.angularjs.org/api/ng/type/ngModel.NgModelController
 * What's FormController?
+ * https://docs.angularjs.org/api/ng/type/form.FormController
 * What's ng-model-options and why would you use it?
 * What are `$validators` and `$asyncValidators`?
 * What's the difference between `scope`, `$scope`, and `$rootScope`?
@@ -168,7 +169,6 @@
 * Generally speaking how would you paraphrase angular?
 * How would you progressively enhance your RESTful app with a pub/sub?
 * How would you structure your app if you only had a realtime (pub/sub) API (no REST)?
-* What are the different ways to architect your angular app?
 * What are the pros and cons of each design?
 * What are some anti patterns developers tend to fall into while using angular?
 * What are the problems currently facing angular1?

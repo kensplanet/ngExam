@@ -1,13 +1,3 @@
-# ngExam
-> An AngularJS 1.x exam from beginner to expert created by [@gdi2290](https://twitter.com/gdi2290)
-
-
-* What's MVC architecture? 
- * Model - The lowest level of the pattern which is responsible for maintaining data.
-   View - This is responsible for displaying all or a portion of the data to the user.
-   Controller - Software Code that controls the interactions between the Model and View. 
-* What's MVVM architecture?
- * MV same as above. The VM acts as an intermediary between the view and the model, and is responsible for handling the view logic. Typically, the view model interacts with the model by invoking methods in the model classes. The view model then provides data from the model in a form that the view can easily use. 
 * What's two way binding?
  * Two-way binding means that any data-related changes affecting the model are immediately propagated to the matching view(s), and that any changes made in the view(s) (say, by the user) are immediately reflected in the underlying model. When app data changes, so does the UI, and conversely. (http://stackoverflow.com/questions/13504906/what-is-two-way-binding)
 * What's ng-model?

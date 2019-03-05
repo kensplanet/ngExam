@@ -7,18 +7,23 @@
 * What is ng-repeat?
   * Used for repeating a set of elements and iterating over a collection. 
 * What are `$index`, `$even`, `$odd`, `$first`, and `$last`?
- * http://www.learn-angular.org/#!/lessons/repeaters  
+  * $index - The index of the current element.
+  * $first - Boolean indicating if the element is first in the collection.
+  * $middle - Boolean indicating if the element is neither first nor last in the collection.
+  * $last - Boolean indicating if the element is last in the collection.
+  * $even - Boolean indicating if the element's index is even.
+  * $odd - Boolean indicating if the element's index is odd. 
 * How would you filter a list via ng-repeat?
- * div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 productBorder"
+  * div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 productBorder"
 		ng-repeat="product in products | orderBy:'name' | filter:search" (search is a scope variable)
 * What's the difference between `angular.module('app' , [])` and `angular.module('app')`
- * first one creates a module injecting the dependency modules. second is used to reference the creation of controllers and directives. 
+  * first one creates a module injecting the dependency modules. second is used to reference the creation of controllers and directives. 
 * What are directives (briefly)? 
- * At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children. (https://docs.angularjs.org/guide/directive) 
+  * At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children. 
 * Why would you use ng-submit instead of ng-click in some cases?
- * The ngSubmit directive binds to the submit event in the browser, which is fired when a form is submitted. The ngClick directive allows you to specify custom behavior when an element is clicked. (http://stackoverflow.com/questions/23553071/differences-between-ng-submit-and-ng-click) 
+  * The ngSubmit directive binds to the submit event in the browser, which is fired when a form is submitted. The ngClick directive allows you to specify custom behavior when an element is clicked. (http://stackoverflow.com/questions/23553071/differences-between-ng-submit-and-ng-click) 
 * What's Dependency Injection?
- * Where you do not create the dependencies required instead have the framework provide it to you. (http://stackoverflow.com/questions/130794/what-is-dependency-injection)
+  * Where you do not create the dependencies required instead have the framework provide it to you.
 * Do other frameworks use dependency injection (even if only for internal use)? Answer: yes (React,Ember)
 * How would you inject services and what are the different ways to do so?
  * Passing a dependency as Function Arguments, Passing a dependency as Array Arguments, Passing a dependency using the $inject service (http://www.infragistics.com/community/blogs/dhananjay_kumar/archive/2016/02/28/different-ways-of-injecting-dependency-in-an-angularjs-application.aspx) 

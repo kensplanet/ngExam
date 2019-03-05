@@ -1,11 +1,11 @@
 * What's two way binding?
- * Two-way binding means that any data-related changes affecting the model are immediately propagated to the matching view(s), and that any changes made in the view(s) (say, by the user) are immediately reflected in the underlying model. When app data changes, so does the UI, and conversely. (http://stackoverflow.com/questions/13504906/what-is-two-way-binding)
+  * Two-way binding means that any data-related changes affecting the model are immediately propagated to the matching view(s), and that any changes made in the view(s) (say, by the user) are immediately reflected in the underlying model. When app data changes, so does the UI, and conversely. (http://stackoverflow.com/questions/13504906/what-is-two-way-binding)
 * What's ng-model?
- * The ngModel directive binds an input,select, textarea (or custom form control) to a property on the scope. 
+  * The ngModel directive binds an input,select, textarea (or custom form control) to a property on the scope. 
 * What is `$http`?
- * A service for making AJAX calls via the HTTP protocol
+  * A service for making AJAX calls via the HTTP protocol
 * What is ng-repeat?
- * Used for repeating a set of elements and iterating over a collection. 
+  * Used for repeating a set of elements and iterating over a collection. 
 * What are `$index`, `$even`, `$odd`, `$first`, and `$last`?
  * http://www.learn-angular.org/#!/lessons/repeaters  
 * How would you filter a list via ng-repeat?
